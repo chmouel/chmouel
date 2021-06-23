@@ -2,7 +2,7 @@
 
 * error humanum est or if not you can always `"git commit --amend"`.
 * Parenthesis are souls fulfilment, `M-x : (ielm)` is the answer to everything.
-* shell automation is the real gift offered to humanity.
+* shell automation is the real gift but have you ever mixed multi lines shell with python oneliner in a yaml field? 
 * Forget yoga and embrace the zen of the python.
 * You say card castle, I heard cloud driven developement.
 * hack it like no one's watching
