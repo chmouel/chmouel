@@ -4,4 +4,4 @@
 * Parenthesis are souls fulfilment, `M-x : (ielm)` is the answer to everything.
 * shell automation is the real gift but have you ever mixed multi lines shell with python oneliner in a yaml field? 
 * You say card castle, I heard cloud driven developement.
-* hack it like no one's watching
+* hack it like no one's watching commit it like there's no tomorrow!
