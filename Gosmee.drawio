@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" modified="2023-12-20T07:05:00.833Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" etag="pjveTB442lrXLbsHtwaD" version="22.1.11" type="github">
+  <diagram name="Page-1" id="fPaUq7UizsbOj6Rvo8v5">
+    <mxGraphModel dx="1143" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Gosmee Server&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;your own running on a small public VM or https://smee.io&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Service Provider&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;GitHub, Gitlab or any&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;service generating&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;webhook&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="129" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.02;entryY=0.46;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FwhXUpBAW3lRBLKA5vBd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="200" as="sourcePoint" />
+            <mxPoint x="390" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-4" value="Webhook Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FwhXUpBAW3lRBLKA5vBd-5" target="FwhXUpBAW3lRBLKA5vBd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Gosmee client&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Running on your laptop, or in a Kubernetes Deployment.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Listening for new changes via server side events&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FwhXUpBAW3lRBLKA5vBd-5" target="FwhXUpBAW3lRBLKA5vBd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="210" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-8" value="Listening for new changes via server side events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwhXUpBAW3lRBLKA5vBd-10" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Local Service&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Receive the Webhook payload exactly like sent from the Service Provider&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
